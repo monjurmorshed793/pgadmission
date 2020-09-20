@@ -26,15 +26,20 @@
     "useSass": true,
     "clientPackageManager": "npm",
     "clientFramework": "angularX",
-    "clientTheme": "litera",
-    "clientThemeVariant": "primary",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
     "creationTimestamp": 1600583980997,
     "testFrameworks": [],
-    "jhiPrefix": "jhi",
+    "jhiPrefix": "pg",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": false,
     "blueprints": []
+  },
+  "generator-jhipster-entity-audit": {
+    "auditFramework": "custom",
+    "auditPage": false,
+    "lastLiquibaseTimestamp": 1600591710000
   }
 }

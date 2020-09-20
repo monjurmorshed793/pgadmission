@@ -14,7 +14,27 @@
     <property name="uuidType" value="uuid" dbms="h2, oracle"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920083735_added_entity_Semester.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920083835_added_entity_Program.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920083935_added_entity_Division.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084035_added_entity_District.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084135_added_entity_Thana.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084235_added_entity_ApplicationDeadline.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084335_added_entity_Applicant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084435_added_entity_ApplicantPersonalInfo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084535_added_entity_ApplicantAddress.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084635_added_entity_ExamType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084735_added_entity_ApplicantEducationalInformation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084835_added_entity_JobExperience.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084830_added_entity_EntityAuditEvent.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20200920084035_added_entity_constraints_District.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084135_added_entity_constraints_Thana.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084235_added_entity_constraints_ApplicationDeadline.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084435_added_entity_constraints_ApplicantPersonalInfo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084535_added_entity_constraints_ApplicantAddress.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084735_added_entity_constraints_ApplicantEducationalInformation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200920084835_added_entity_constraints_JobExperience.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
